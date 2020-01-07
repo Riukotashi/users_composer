@@ -1,6 +1,6 @@
 <?php
 
-namespace users_composer\users;
+namespace App\Users;
 
 class Connection
 {

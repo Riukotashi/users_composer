@@ -1,7 +1,6 @@
 <?php 
-use users_composer\users\Connection;
+use App\Users\Connection;
 
-require_once(__DIR__.'./Connection.php');
 $dbh = new Connection('user_users_composer', '2QyXuehLk6Gh6YBr', 'users');
 $users = $dbh->selectTable('utilisateur');
 ?>
